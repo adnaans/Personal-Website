@@ -1,3 +1,8 @@
+
+body {
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight:400;
+}
 p {
   color: #606060;
   font-family: 'Ek Mukta', sans-serif;
@@ -8,8 +13,41 @@ h1 {
   font-family: 'Ek Mukta', sans-serif;
   font-weight:600;
 }
-div {
+#container {
   margin-left: 20%;
   margin-top: 5%;
   margin-right: 20%;
 }
+#header {
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+#nav {
+  padding-top:1.4em;
+  width: 100%;
+}
+#tabs {
+  vertical-align: middle;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-right: 5%;
+  font-size: 24px;
+}
+#name {
+  float: left;
+  margin-right: auto;
+  margin-left: 0px;
+}
+/*
+#mainimg {
+  width:60%;
+}
+#info {
+  float: left;
+  width: 50%;
+}
+#images {
+  float: right;
+}
+*/
