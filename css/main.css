@@ -9,7 +9,6 @@ p {
   font-weight:400;
 }
 h1 {
-  color: #000000;
   font-family: 'Ek Mukta', sans-serif;
   font-weight:600;
 }
@@ -38,6 +37,7 @@ h1 {
   float: left;
   margin-right: auto;
   margin-left: 0px;
+  color: #221D8F;
 }
 /*
 #mainimg {
@@ -51,3 +51,22 @@ h1 {
   float: right;
 }
 */
+
+.title {
+  margin-top: 3%;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height:1.1em;
+  
+}
+a:link, a:visited {
+  color: rgba(40, 179, 193, 0.92);
+}
+a:hover {
+  color: #0092FF;
+}
