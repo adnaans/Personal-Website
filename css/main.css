@@ -17,11 +17,6 @@ h1 {
   margin-top: 5%;
   margin-right: 20%;
 }
-#header {
-  margin-left: 20%;
-  margin-top: 5%;
-  margin-right: 20%;
-}
 #nav {
   padding-top:1.4em;
   width: 100%;
@@ -37,7 +32,7 @@ h1 {
   float: left;
   margin-right: auto;
   margin-left: 0px;
-  color: #221D8F;
+  /*color: #221D8F;*/
 }
 /*
 #mainimg {
@@ -70,11 +65,34 @@ a {
   box-sizing: border-box;
   display: inline-block;
   line-height:1.1em;
-  
 }
 a:link, a:visited {
   color: rgba(40, 179, 193, 0.92);
 }
 a:hover {
   color: #0092FF;
+}
+
+.content {
+  width:60%;
+}
+
+@media (min-width: 30em) {
+  .row { width: 100%; display: table; table-layout: fixed; }
+  .col { display: table-cell; }
+}
+
+@media screen and (max-width: 762px) {
+  .row {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100% !important;
+  }
+  .col:not(.content){
+    width: 0px;
+  }
+  .col.content{
+    padding: 0 20px;
+    width: 100%;
+  }
 }
