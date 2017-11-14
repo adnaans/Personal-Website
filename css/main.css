@@ -82,7 +82,7 @@ a:hover {
   .col { display: table-cell; }
 }
 
-@media (max-width: 762px) {
+@media screen and (max-width: 762px){
   .row {
     padding-left: 20px;
     padding-right: 20px;
