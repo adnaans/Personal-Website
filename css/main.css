@@ -27,7 +27,7 @@ h1 {
   margin-right: 0px;
   margin-left: auto;
   padding-right: 5%;
-  font-size: 24px;
+  font-size: 1.3em;
 }
 #name {
   float: left;
@@ -97,5 +97,33 @@ a:hover {
     padding: 0 20px;
     width: 100%;
     display: table-cell;
+  }
+
+  #tabs {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 505px){
+  h1{
+    font-size: 1.5em;
+  }
+  
+  #tabs {
+    font-size: 1.15em;
+    height: 35px;
+  }
+
+  #nav {
+    padding-top: 0.95em;
+  }
+}
+
+@media screen and (max-width: 390px){
+  #tabs{
+    margin-left: 5%;
+  }
+  #name{
+    margin-left: 5%;
   }
 }
