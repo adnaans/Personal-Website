@@ -1,12 +1,19 @@
 
+@font-face {
+  font-family: "DejaVuSansCond";
+  src: url("assets/fonts/DejaVuSansCondensed.ttf") format("truetype");
+}
+
 body {
-  font-family: 'Ek Mukta', sans-serif;
+  font-family: 'DejaVuSansCond', sans-serif;
   font-weight:400;
   font-size: 1em;
+  line-height: 1.8em;
+  letter-spacing: 0.13px;
 }
 p {
-  color: #5a5a5a;
-  font-family: 'Ek Mukta', sans-serif;
+  color: #585858;
+  font-family: 'DejaVuSansCond', sans-serif;
   font-weight:300;
 }
 h1 {
