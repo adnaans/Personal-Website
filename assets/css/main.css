@@ -8,7 +8,7 @@ body {
   font-family: 'DejaVuSansCond', sans-serif;
   font-weight:400;
   font-size: 1em;
-  line-height: 1.8em;
+  line-height: 1.85em;
   letter-spacing: 0.13px;
 }
 p {
@@ -21,20 +21,16 @@ h1 {
   font-weight:600;
 }
 .container {
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 5%;
-  margin-right: 20%;
+  margin-right: 25%;
 }
 #nav {
-  padding-top:1.4em;
+  padding-top:0.9em;
   width: 100%;
-}
-#tabs {
-  vertical-align: middle;
-  margin-right: 0px;
-  margin-left: auto;
   padding-right: 5%;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  text-align: right;
 }
 #name {
   float: left;
@@ -82,7 +78,7 @@ a:hover {
 }
 
 .content {
-  width:60%;
+  width:55%;
 }
 
 @media (min-width: 600px) {
