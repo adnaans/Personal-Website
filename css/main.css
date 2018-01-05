@@ -33,7 +33,7 @@ h1 {
   font-family: 'RobotoSlabBold', sans-serif;
 }
 
-#links {
+.links {
   letter-spacing: 1.2px;
   font-size: 1.4em;
 }
