@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "Barlow";
-  src: url("../fonts/Barlow/Barlow-Regular.otf") format("opentype");
+  src: url("../fonts/Barlow/Barlow-Light.otf") format("opentype");
 }
 @font-face {
   font-family: "DejaVuSansCondensed";
@@ -23,7 +23,7 @@ body {
   letter-spacing: 0.8px;
 }
 p {
-  color: #868686;
+  color: #777777;
   font-family: 'Barlow', sans-serif;
   font-size:1.12em;
   letter-spacing: 0.8px;
