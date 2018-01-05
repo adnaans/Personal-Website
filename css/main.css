@@ -1,37 +1,40 @@
 
 @font-face {
-  font-family: "BarlowLight";
-  src: url("../fonts/Barlow/Barlow-Light.otf") format("opentype");
+  font-family: "Barlow";
+  src: url("../fonts/Barlow/Barlow-Regular.otf") format("opentype");
 }
 @font-face {
-  font-family: "DejaVuSansExtraLight";
-  src: url("../fonts/DejaVu/DejaVuSans-ExtraLight.ttf") format("truetype");
+  font-family: "DejaVuSansCondensed";
+  src: url("../fonts/DejaVu/DejaVuSansCondensed.ttf") format("truetype");
 }
 @font-face {
-  font-family: "RobotoSlabLight";
-  src: url("../fonts/RobotoSlab/RobotoSlab-Regular.ttf") format("truetype");
+  font-family: "RobotoSlabBold";
+  src: url("../fonts/RobotoSlab/RobotoSlab-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "VisionLight";
+  font-family: "Vision";
   src: url("../fonts/Vision/Vision-Light.otf") format("opentype");
 }
 
 body {
-  font-family: 'RobotoSlabLight', sans-serif;
-  font-weight:400;
+  font-family: 'Vision', sans-serif;
   font-size: 1em;
-  line-height: 1.8em;
-  letter-spacing: 0.35px;
+  line-height: 2em;
+  letter-spacing: 0.8px;
 }
 p {
-  color: #727272;
-  font-family: 'RobotoSlabLight', sans-serif;
+  color: #8d8d8d;
+  font-family: 'Barlow', sans-serif;
   font-weight:300;
+  font-size:1.12em;
+  letter-spacing: 0.8px;
 }
 h1 {
-  font-family: 'Ek Mukta', sans-serif;
+  font-family: 'RobotoSlabBold', sans-serif;
   font-weight:600;
 }
+
+h2
 .container {
   margin-left: 25%;
   margin-top: 5%;
@@ -69,6 +72,8 @@ h1 {
 
 .title {
   margin-top: 3.5%;
+  font-family: 'DejaVuSansCondensed', sans-serif;
+  font-size: 1.6em;
 }
 
 .rmbottom {
