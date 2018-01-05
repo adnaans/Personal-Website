@@ -3,6 +3,18 @@
   font-family: "BarlowLight";
   src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
 }
+@font-face {
+  font-family: "DejaVuSansCond";
+  src: url("fonts/DejaVu/DejaVuSansCondensed.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowLight";
+  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "BarlowLight";
+  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
+}
 
 body {
   font-family: 'BarlowLight', sans-serif;
