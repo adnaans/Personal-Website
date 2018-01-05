@@ -31,10 +31,12 @@ p {
 }
 h1 {
   font-family: 'RobotoSlabBold', sans-serif;
-  font-weight:600;
 }
 
-h2
+span {
+  letter-spacing: 1.2px;
+  font-size: 1.5em;
+}
 .container {
   margin-left: 25%;
   margin-top: 5%;
@@ -49,6 +51,7 @@ h2
 
 #navlink{
   padding-right: 2%;
+  letter-spacing: 1.2px;
 }
 
 #name {
