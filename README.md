@@ -2,4 +2,4 @@
 
 My new personal website to show my personal information and projects
 
-https://adnaan.co
+Blog currently under development
