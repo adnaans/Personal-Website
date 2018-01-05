@@ -112,14 +112,11 @@ a:hover {
   #header {
     margin-top: 40px;
   }
-}
-
-@media (min-width: 599px) {
   .row { width: 100%; display: table; table-layout: fixed; }
   .col { display: table-cell; }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 900px){
   .row {
     width: 100% !important;
     display: table;
@@ -140,7 +137,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 505px){
+@media screen and (max-width: 560px){
   h1{
     font-size: 1.5em;
   }
