@@ -1,31 +1,31 @@
 
 @font-face {
   font-family: "BarlowLight";
-  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
+  src: url("../fonts/Barlow/Barlow-Light.otf") format("opentype");
 }
 @font-face {
-  font-family: "DejaVuSansCond";
-  src: url("fonts/DejaVu/DejaVuSansCondensed.ttf") format("truetype");
+  font-family: "DejaVuSansExtraLight";
+  src: url("../fonts/DejaVu/DejaVuSans-ExtraLight.ttf") format("truetype");
 }
 @font-face {
   font-family: "RobotoSlabLight";
-  src: url("fonts/RobotoSlab/RobotSlab-Light.ttf") format("truetype");
+  src: url("../fonts/RobotoSlab/RobotSlab-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "VisionLight";
-  src: url("fonts/Vision/Vision-Light.otf") format("opentype");
+  src: url("../fonts/Vision/Vision-Light.otf") format("opentype");
 }
 
 body {
-  font-family: 'BarlowLight', sans-serif;
+  font-family: 'DejaVuSansExtraLight', sans-serif;
   font-weight:400;
   font-size: 1em;
-  line-height: 1.85em;
-  letter-spacing: 0.13px;
+  line-height: 1.6em;
+  letter-spacing: -0.2px;
 }
 p {
   color: #585858;
-  font-family: 'BarlowLight', sans-serif;
+  font-family: 'DejaVuSansExtraLight', sans-serif;
   font-weight:300;
 }
 h1 {
