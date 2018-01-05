@@ -12,8 +12,8 @@
   src: url("fonts/RobotoSlab/RobotSlab-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "BarlowLight";
-  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
+  font-family: "VisionLight";
+  src: url("fonts/Vision/Vision-Light.otf") format("opentype");
 }
 
 body {
