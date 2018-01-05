@@ -1,11 +1,11 @@
 
 @font-face {
-  font-family: "DejaVuSansCond";
-  src: url("assets/fonts/DejaVuSansCondensed.ttf") format("truetype");
+  font-family: "BarlowLight";
+  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
 }
 
 body {
-  font-family: 'DejaVuSansCond', sans-serif;
+  font-family: 'BarlowLight', sans-serif;
   font-weight:400;
   font-size: 1em;
   line-height: 1.85em;
@@ -13,7 +13,7 @@ body {
 }
 p {
   color: #585858;
-  font-family: 'DejaVuSansCond', sans-serif;
+  font-family: 'BarlowLight', sans-serif;
   font-weight:300;
 }
 h1 {
