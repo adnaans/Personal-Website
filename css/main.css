@@ -8,8 +8,8 @@
   src: url("fonts/DejaVu/DejaVuSansCondensed.ttf") format("truetype");
 }
 @font-face {
-  font-family: "BarlowLight";
-  src: url("fonts/Barlow/Barlow-Light.otf") format("opentype");
+  font-family: "RobotoSlabLight";
+  src: url("fonts/RobotoSlab/RobotSlab-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "BarlowLight";
