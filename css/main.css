@@ -23,7 +23,7 @@ body {
   letter-spacing: 0.8px;
 }
 p {
-  color: #8d8d8d;
+  color: #868686;
   font-family: 'Barlow', sans-serif;
   font-size:1.12em;
   letter-spacing: 0.8px;
@@ -84,6 +84,10 @@ h1 {
 
 .rmtop {
   margin-top: 0%;
+}
+
+.projectslink {
+  padding: 3px;
 }
 
 a {
