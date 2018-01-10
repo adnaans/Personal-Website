@@ -166,7 +166,7 @@ a:hover {
   }
   #menu {
     display: block;
-    margin-top: 2.2px;
+    margin-top: 1.26px;
   }
 }
 
@@ -207,7 +207,7 @@ a:hover {
 }
 
 .menu-button:hover {
-  background-color: rgba(40, 179, 193, 0.92); 
+  background-color: rgba(40, 179, 193, 0.92);
 }
 
 .nav-opened{
