@@ -8,17 +8,20 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">        
-    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        
+
             ga('create', 'UA-104694851-1', 'auto');
             ga('send', 'pageview');
-        
+
         </script>
     </head>
     <body>
@@ -33,6 +36,15 @@
                         <div id="mainlink" class="navlink projectslink">
                             <a href="index.html">Home</a>
                         </div>
+                        <div class="navlink" id="menu">
+                          <div class="dropdown">
+                            <a class="menu-button" href="#"><img id="menuimg" src="img/menuicon.png" style="width: 25px"></a>
+                            <div id="dropmenu" class="dropdown-content nav-closed">
+                              <a href="/">Home</a>
+                              <!--<a href="blog">Blog</a>-->
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col"></div>
@@ -43,7 +55,7 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col content">
-                    <div class="rmtop">                    
+                    <div class="rmtop">
                         <span class="links"><a href="http://grommit.adnaan.co">Grommit</a></span>
                         <p class="rmtop">
                             A project done with Palantir to simplify how people choose their mode of transportation.
@@ -52,7 +64,7 @@
                             to reach parts of Palo Alto, so users can determine which mode of transportation works best for them.
                         </p>
                     </div>
-                    <div class="rmtop">                    
+                    <div class="rmtop">
                         <span class="links"><a href="https://devpost.com/software/karo">Karo</a></span>
                         <p class="rmtop">
                             Submitted to PennApps XVI. Won PennApps Route | Best Google Cloud Machine Learning API Hack and
@@ -64,14 +76,14 @@
                     <div class="rmtop">
                         <span class="links"><a href="https://github.com/adnaans/HackChair">HackChair</a></span>
                         <p class="rmtop">
-                            Submitted to HackingEDU in San Mateo , an educational hackathon with thousands of high school 
+                            Submitted to HackingEDU in San Mateo , an educational hackathon with thousands of high school
                             and college participants, and won Second Place Overall. This is a tool to help educators monitor students.
-                            Using a phone attached to the chair a student sits on, teachers can use the website to view the tilt of the 
-                            chair and back posture. Using the Moxtra API, we use a second phone to stream what is on the student's desk 
+                            Using a phone attached to the chair a student sits on, teachers can use the website to view the tilt of the
+                            chair and back posture. Using the Moxtra API, we use a second phone to stream what is on the student's desk
                             to the website as well. With a Muse headset, we also tracked blinking to display on the website whether the student is falling asleep.
                         </p>
                     </div>
-                    <div class="rmtop">                    
+                    <div class="rmtop">
                         <span class="links"><a href="http://lostandfound.adnaan.co">Trace.it</a></span>
                         <p class="rmtop">
                             My PennApps project to help people find their lost items cheaply. Creates a QR code for every
@@ -83,7 +95,7 @@
                     <div class="rmtop">
                         <span class="links"><a href="http://challengetoconquer.org/">Challenge To Conquer</a></span>
                         <p class="rmtop">
-                            Created a website for Challenge to Conquer, a nonprofit that collects money in the United States 
+                            Created a website for Challenge to Conquer, a nonprofit that collects money in the United States
                             for a hospital for challenged children in India, called Mithra. Donations are always greatfully accepted.
                         </p>
                     </div>
