@@ -32,6 +32,10 @@ h1 {
   font-family: 'RobotoSlabBold', sans-serif;
 }
 
+#menu {
+  display: none;
+}
+
 .links {
   letter-spacing: 1.2px;
   font-size: 1.4em;
@@ -48,7 +52,7 @@ h1 {
   text-align: right;
 }
 
-#navlink{
+.navlink{
   padding-right: 2%;
   letter-spacing: 1.2px;
 }
@@ -153,9 +157,16 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 430px){
-  #tabs{
-    margin-left: 5%;
+@media screen and (max-width: 450px){
+  #mainlink {
+    display: none;
+  }
+  h1{
+    font-size: 1.3em;
+  }
+  #menu {
+    display: block;
+    margin-top: 2.5px;
   }
 }
 
