@@ -206,6 +206,10 @@ a:hover {
   border-bottom: none;
 }
 
+.menu-button:hover {
+  background-color: rgba(40, 179, 193, 0.92); 
+}
+
 .nav-opened{
   display: block;
 }
