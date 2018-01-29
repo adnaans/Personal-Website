@@ -1,0 +1,25 @@
+@media screen and (max-width: 450px){
+    #grommit{
+        width: 91.469px;
+    }
+
+    #karo{
+        width: 45.531px;
+    }
+
+    #netcollector{
+        width: 137.672px;
+    }
+
+    #hackchair{
+        width: 105.562px;
+    }
+
+    #traceit{
+        width: 77.6094px;
+    }
+
+    #ctc{
+        width: 229.391px;
+    }
+}
