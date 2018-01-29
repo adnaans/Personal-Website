@@ -168,6 +168,14 @@ a:hover {
     display: block;
     margin-top: 1.26px;
   }
+
+  #menu-link-h{
+    width: 51.078px;
+  }
+
+  #menu-link-p{
+    width: 73px;
+  }
 }
 
 .menu-button {
