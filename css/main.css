@@ -177,13 +177,6 @@ a:hover {
     color: #0092FF;
   }
 
-  #menu-link-h{
-    width: 51.078px;
-  }
-
-  #menu-link-p{
-    width: 73px;
-  }
 }
 
 @media (min-width: 450px) {
