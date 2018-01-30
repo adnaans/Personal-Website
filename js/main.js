@@ -15,4 +15,16 @@ $document.ready(function () {
         $(".dropdown:hover").toggleClass("colored");
     });
 
+    $(document).mouseup(function(e) {
+        var menu = $(".menu-button");
+
+        // if the target of the click isn't the container nor a descendant of the container
+        if (!menu.is(e.target) && menu.has(e.target).length === 0) 
+        {
+            $("#dropmenu").toggleClass("nav-opened");
+            $("#dropmenu").toggleClass("nav-closed");
+            $(".dropdown").toggleClass("colored");
+        }
+    });
+
 });
