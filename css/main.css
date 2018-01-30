@@ -169,6 +169,14 @@ a:hover {
     margin-top: 1.26px;
   }
 
+  a:link, a:visited not(.menu-button) {
+    color: rgba(40, 179, 193, 0.92);
+  }
+
+  a:hover not(.menu-button){
+    color: #0092FF;
+  }
+
   #menu-link-h{
     width: 51.078px;
   }
@@ -218,14 +226,10 @@ a:hover {
   border-bottom: none;
 }
 
-.colored {background-color: #ffffff}
+.colored {background-color: rgba(40, 179, 193, 0.92)}
 
 .menu-button {
   border-bottom: none;
-}
-
-.menu-button:hover {
-  background-color: rgba(40, 179, 193, 0.92);
 }
 
 .nav-opened{
