@@ -209,6 +209,7 @@ a:hover {
 }
 
 .dropdown-link{
+  padding: 5px 0px;
   border-bottom: 1px solid #e4e4e4;
 }
 
