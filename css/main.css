@@ -164,9 +164,16 @@ a:hover {
   h1{
     font-size: 1.3em;
   }
+  h2{
+    font-size: 1em;
+  }
   #menu {
     display: block;
     margin-top: 1.26px;
+  }
+
+  #menuimg{
+    width: 25px;
   }
 
   a:link, a:visited not(.menu-button) {
@@ -177,6 +184,18 @@ a:hover {
     color: #0092FF;
   }
 
+}
+
+@media screen and (max-width: 340px){
+  h1{
+    font-size: 1.1em;
+  }
+  #menuimg{
+    width: 22px;
+  }
+  #menu {
+    margin-top: -0.5px;
+  }
 }
 
 @media (min-width: 450px) {
