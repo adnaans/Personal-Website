@@ -224,7 +224,7 @@ a:hover {
     display: none;
     background-color: #ffffff;
     /*box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);*/
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .dropdown-link{
@@ -234,7 +234,6 @@ a:hover {
 
 .dropdown-content a{
   font-size: 1.3em;
-  margin: 5px;
   border-bottom: none;
 }
 
@@ -250,4 +249,8 @@ a:hover {
 
 .nav-closed{
   display: none;
+}
+
+.dropdown-link h2 a{
+  margin-left: 0;
 }
