@@ -141,6 +141,32 @@ a:hover {
   }
 }
 
+@media (min-width: 900px) {
+  .col:not(.content){
+    width: 10vw;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+   p {
+     font-size: 1.6em;
+     line-height: 1.75em;
+   }
+}
+
+@media (min-width: 1500px) {
+  .col:not(.content) {
+    width: 15vw;
+  }
+}
+
 @media screen and (max-width: 560px){
   h1{
     font-size: 1.5em;
