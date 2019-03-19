@@ -145,6 +145,9 @@ a:hover {
   .col:not(.content){
     width: 10vw;
   }
+  .links {
+    font-size: 2em;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1200px) {
