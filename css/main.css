@@ -27,6 +27,8 @@ p {
   font-family: 'Barlow', sans-serif;
   font-size:1em;
   letter-spacing: 0.8px;
+  /* text-align: justify;
+  text-justify: auto; */
 }
 h1 {
   font-family: 'RobotoSlabBold', sans-serif;
